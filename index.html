@@ -19,7 +19,7 @@
 	</button>
 	<ul class="header__menu">
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#about">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -28,7 +28,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#partners">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -37,7 +37,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#tickets">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -46,7 +46,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#contacts">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -90,7 +90,7 @@
         <section class="second-section">
             <h2 style="display: none;">Главное событие твоей весны</h2>
         </section>
-        <section class="about">
+        <section class="about" id="about">
 	<div class="about__content">
 		<div class="about__item">
 			<img src="img/about.png" alt="" class="about__item__pic">
@@ -269,7 +269,7 @@
             </div>
         </section>
 
-        <section class="sponsor">
+        <section class="sponsor" id="partners">
             <img src="img/sponsor.png" alt="" class="sponsor-decor">
             <img src="img/sponsor-mob.png" alt="" class="sponsor-decor-mob">
             <h2>генеральный спонсор</h2>
@@ -317,7 +317,7 @@
             <img src="img/gallery-secondary.png" alt="" class="gallery__secondary">
         </section>
 
-        <!-- <section class="links">
+        <section class="links" id="tickets">
             <div class="links__registration">
                 <h2>
                     регистрация<br>
@@ -332,11 +332,100 @@
                         <path d="M118 26.5L94 49.4497V3.55033L118 26.5Z" fill="white"/>
                         <path d="M75 26.5L51 49.4497V3.55033L75 26.5Z" fill="white"/>
                     </svg>
+
+                    <a href="vk.com/homebeerfest_spb" target="_blank" class="link-item">vk.com/homebeerfest_spb</a>
                 </div>
 
                 <img src="img/registration.png" alt="">
             </div>
-        </section> -->
+
+            <img src="img/flag4.svg" alt="" class="links-flag">
+            <img src="img/flag5.svg" alt="" class="links-flag2">
+
+            <div class="links__guest">
+                <h2>
+                    хочешь стать<br>
+                    нашим гостем?
+                </h2>
+
+                <div class="links__registration__link">
+                    <p>тогда тебе сюда</p>
+                </div>
+
+                <a href="#" class="links__guest__link"></a>
+
+                <svg width="53" height="117" viewBox="0 0 53 117" fill="none" xmlns="http://www.w3.org/2000/svg" class="links__guest__decor">
+                    <path d="M26.5 0L49.4497 24H3.55033L26.5 0Z" fill="white"/>
+                    <path d="M26.5 42L49.4497 66H3.55033L26.5 42Z" fill="white"/>
+                    <path d="M26.5 85L49.4497 109H3.55033L26.5 85Z" fill="white"/>
+                </svg>
+                    
+            </div>
+
+            <div class="links__members">
+                <h2>
+                    пивовары<br>
+                    фестиваля
+                </h2>
+
+                <div class="links__registration__link">
+                    <svg width="160" height="53" viewBox="0 0 160 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M160 26.5L136 49.4497V3.55033L160 26.5Z" fill="white"/>
+                        <path d="M118 26.5L94 49.4497V3.55033L118 26.5Z" fill="white"/>
+                        <path d="M75 26.5L51 49.4497V3.55033L75 26.5Z" fill="white"/>
+                    </svg>
+
+                    <a href="https://2beer4.me/" target="_blank" class="links__members__link">https://2beer4.me/</a>
+                </div>
+
+                <img src="img/members.png" alt="" class="links__members__icon">
+            </div>
+        </section>
+
+
+        <section class="org" id="contacts">
+            <div class="org__about">
+                <h2>
+                    организатор фестиваля:
+                </h2>
+
+                <div class="org__about__row">
+                    <img src="img/mirbeer.png" alt="">
+
+                    <p>
+                        Компания «МирБир» основана в 2008 году и является ведущим ритеилером, импортером и дистрибьютером оборудования, ингредиентов и аксессуаров для домашнего пивоварения, виноделия, самогоноварения и кулинарии.
+                        <br><br>
+                        Мы оказываем поддержку начинающим пивоварам, винокурам и виноделам, предоставляя им возможность лично познакомиться с признанными мастерами, обменяться опытом и знаниями с такими же энтузиастами.
+                    </p>
+                </div>
+
+                <a href="https://mirbeer.ru/" target="_blank" class="org__about__link">
+                    mirbeer.ru
+                </a>
+            </div>
+
+            <div class="org__contacts">
+                <h2>Контакты</h2>
+
+                <div class="org__contacts__row">
+                    <p>адрес проведения фестиваля:</p>
+
+                    <div class="org__contacts__address">
+                        <img src="img/location2.png" alt="">
+                        <span>
+                            г. Санкт-Петербург, 
+                            Красногвардейская пл. 3, 
+                            Design district DAA
+                        </span>
+                    </div>
+                </div>
+
+                <div class="org__contacts__buttons">
+                    <a href="mailto:welcome@homebeerfest.ru" class="org__contacts__email">welcome@homebeerfest.ru</a>
+                    <a href="vk.com/homebeerfest_spb" class="org__contacts__vk">vk.com/homebeerfest_spb</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div class="mob-menu">
@@ -349,7 +438,7 @@
 
 	<ul class="header__menu">
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#about">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -358,7 +447,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#partners">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -367,7 +456,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#tickets">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
@@ -376,7 +465,7 @@
 		</li>
 
 		<li class="header__menu__item">
-			<a href="#">
+			<a href="#contacts">
 				<svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M11.0267 9.49997L0.549849 18.6199L0.50361 0.433425L11.0267 9.49997Z" fill="#CA5724"/>
 				</svg>
